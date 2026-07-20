@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="h-full scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/bighulk.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HULKs — a student research team at the Hamburg University of Technology programming humanoid robots for RoboCup."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
+    <title>HULKs — Humanoid Robotics Research at TUHH</title>
+    <script>
+      // applying dark/light modes before vue mounts
+      (function () {
+        try {
+          const stored = localStorage.getItem("hulks-theme");
+
+          //check if browser uses dark mode
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+
+          // set theme
+          if (stored === "dark" || (!stored && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (_) {
+          console.error("Failed to set theme");
+        }
+      })();
+    </script>
+  </head>
+  <body
+    class="h-full bg-white font-sans text-ink-900 antialiased [font-feature-settings:'cv02','cv03','cv04','cv11'] selection:bg-brand-500/30 selection:text-ink-900 dark:bg-ink-950 dark:text-ink-100 dark:selection:text-ink-50"
+  >
+    <div id="app" class="min-h-full"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

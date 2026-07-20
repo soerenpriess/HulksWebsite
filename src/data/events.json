@@ -1,0 +1,52 @@
+[
+  {
+    "id": "robocup-2025",
+    "title": "RoboCup 2025",
+    "location": "Salvador, Brazil",
+    "date": "July 2025",
+    "tags": ["RoboCup", "NAO", "Competition"],
+    "highlight": "2nd place — Technical Challenge",
+    "summary": "In July, we traveled to Salvador, Brazil to compete in this year's RoboCup. This season we introduced several new features and improvements, including MPC step planning and enhanced field color detection. The competition began with some rocky matches as we worked through bugs in our newly developed features. However, we were able to finish the event — and with this the NAO era — on a high note, playing a final game with excellent walking performance and precise localization and scoring second in the Technical Challenge. We now look forward to the next season, where we will compete in the newly formed Humanoid Soccer League with the Booster K1 platform.",
+    "image": "https://hulks.de/_photos/robocup-2025.jpg"
+  },
+  {
+    "id": "german-open-2025",
+    "title": "GO 2025",
+    "location": "Nuremberg, Germany",
+    "date": "April 2025",
+    "tags": ["German Open", "Competition"],
+    "highlight": "2nd place — our best result yet",
+    "summary": "In this year's German Open in Nuremberg, we managed to secure the second place, our best result yet. We were able to finish major improvements to our vision and behavior code in time for the competition, and fixed a large number of bugs. Our main focus for the upcoming RoboCup this summer remains walking stability, which proved to be a major weakness on the field. If you want to join us for our exciting journey and see the results of our work, come see us at RoboCup 2025 in Salvador, Brazil.",
+    "image": "https://hulks.de/_photos/go-2025.jpg",
+    "link": "https://robocup.org/"
+  },
+  {
+    "id": "robocup-2024",
+    "title": "RoboCup 2024",
+    "location": "Eindhoven, Netherlands",
+    "date": "July 2024",
+    "tags": ["RoboCup", "Competition"],
+    "highlight": "4th place",
+    "summary": "This summer, we finished 4th in the RoboCup competition in Eindhoven, Netherlands. This competition saw the introduction of various large features, such as a brand-new replayer tool, visual referee detection, and additional energy-saving measures. Walking stability was our main weakness during the competition, and we started working on multiple large features which aim to improve it.",
+    "image": "https://hulks.de/_photos/robocup-2024.jpg"
+  },
+  {
+    "id": "german-open-2024",
+    "title": "GO 2024",
+    "location": "Hamburg, Germany",
+    "date": "April 2024",
+    "tags": ["German Open", "Competition"],
+    "summary": "From the 17th to the 21st of April, the team HULKs participated in the German Open 2024 to compete against German as well as international teams. A large portion of the competition was focused on adjusting to the new rule changes this year, with the robots recognizing visual signals from the referee, as well as requiring more passing between robots. Continuing to build on the Rust framework from two years earlier, team HULKs is focusing on more stability during the games. In the previous season, we achieved 4th place at RoboCup 2023 in Bordeaux — however, during our games our robots walked into each other and fell over. For this reason, we are working on new robot detection, higher walking stability, and smarter behavioral algorithms.",
+    "image": "https://hulks.de/_photos/go-2024.png"
+  },
+  {
+    "id": "rohow",
+    "title": "RoHOW",
+    "location": "TUHH, Hamburg",
+    "date": "Annual since 2014",
+    "tags": ["Workshop", "Community", "Hosted by HULKs"],
+    "summary": "Since 2014, we are annually hosting the Robotic Hamburg Open Workshop (RoHOW). The RoHOW is an event hosted by the Hamburg University of Technology that serves the purpose of education and networking. Over 100 scientists and students from all over the world who are researching in the field of humanoid robotics participate in this event. The goal is the exchange of information between RoboCup teams from different universities and research institutes. Participants have the opportunity to visit lectures and workshops, challenge other teams in competitions, and get in direct contact with each other.",
+    "image": "https://hulks.de/_photos/rohow.JPG",
+    "link": "https://rohow.de"
+  }
+]

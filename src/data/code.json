@@ -1,0 +1,30 @@
+{
+  "intro": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,",
+  "github": {
+    "org": "HULKs",
+    "orgUrl": "https://github.com/HULKs",
+    "repo": "HULKs/hulk",
+    "repoUrl": "https://github.com/HULKs/hulk",
+    "language": "Rust"
+  },
+  "featuredRepos": [
+    {
+      "name": "hulk",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.",
+      "url": "https://github.com/HULKs/hulk",
+      "language": "Rust"
+    },
+    {
+      "name": "aliveness",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.",
+      "url": "https://github.com/HULKs/nao-image-segmentation-dataset",
+      "language": "Rust"
+    },
+    {
+      "name": "opn",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.",
+      "url": "https://github.com/HULKs/hulks.github.io",
+      "language": "Rust"
+    }
+  ]
+}
