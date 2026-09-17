@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 
+const base = import.meta.env.BASE_URL;
+
 const routes = [
   {
     path: "/",
@@ -63,7 +65,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(base),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition;
@@ -73,8 +75,8 @@ const router = createRouter({
 });
 
 router.afterEach((to) => {
-  const base = "HULKs — Humanoid Robotics Research at TUHH";
-  document.title = to.meta?.title ? `${to.meta.title} · HULKs` : base;
+  const defaultTitle = "HULKs — Humanoid Robotics Research at TUHH";
+  document.title = to.meta?.title ? `${to.meta.title} · HULKs` : defaultTitle;
 });
 
 export default router;
